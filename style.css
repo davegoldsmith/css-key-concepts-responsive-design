@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
 
 .card-container {
@@ -30,28 +30,28 @@ body {
 }
 
 .navigation {
-    flex-flow: column wrap;
-    padding: 0;
-    list-style: none;
-    margin: 0; 
-  }
-  .navigation a { 
-    text-align: center; 
-    padding: 10px;
-    border-top: 1px solid lightslategray; 
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
-    text-decoration: none;
-    display: block;
-    padding: 1em;
-    color: white;
-  }
-  .navigation li:last-of-type a {
-    border-bottom: 1px solid lightslategray;
-  }
-  
-  .navigation a:hover {
-    background: #1565C0;
-  }
+  flex-flow: column wrap;
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+.navigation a {
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid lightslategray;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+.navigation li:last-of-type a {
+  border-bottom: 1px solid lightslategray;
+}
+
+.navigation a:hover {
+  background: #1565c0;
+}
 
 img {
   width: 250px;
@@ -66,31 +66,30 @@ p {
 }
 
 @media (prefers-color-scheme: dark) {
-    body {
-        background-color: var(--dark-bg);  
-        color: var(--light); 
-    }
-    .card {
-        background-color: var(--lighter-grey);
-    } 
-    .navigation  {
-        background-color: var(--lighter-grey);
-    }
+  body {
+    background-color: var(--dark-bg);
+    color: var(--light);
+  }
+  .card {
+    background-color: var(--lighter-grey);
+  }
+  .navigation {
+    background-color: var(--lighter-grey);
+  }
 }
 
 @media (prefers-color-scheme: light) {
-    body {
-        background-color: var(--light);  
-        color: var(--dark); 
-    }
-    .card {
-        background-color: lightslategray;
-    }
-    .navigation {
-        background-color: var(--dark-header);
-    }
+  body {
+    background-color: var(--light);
+    color: var(--dark);
+  }
+  .card {
+    background-color: lightslategray;
+  }
+  .navigation {
+    background-color: var(--dark-header);
+  }
 }
-
 
 @media screen and (min-width: 700px) {
   h1 {
@@ -112,7 +111,7 @@ p {
     border-top: 0;
   }
 
-  .navigation a { 
+  .navigation a {
     border: 0;
   }
 
@@ -134,5 +133,3 @@ p {
     justify-content: center;
   }
 }
-
-
